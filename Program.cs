@@ -25,11 +25,11 @@ namespace ClassMetotDemo_hmw3
                 "1-List the all customers\n" +
                 "2-Add new Customer\n" +
                 "3-Delete Customer\n");
-                int functionselected = Convert.ToInt32(Console.ReadLine());//bunu not alcan
+                int functionselected = Convert.ToInt32(Console.ReadLine());//console.readline reads string. typecasting is mandatory.
 
                 if (functionselected==1)
                 {
-                customermanager.List(allcustomers);//bunu not alcan
+                customermanager.List(allcustomers);//giving customerarray to list function
                 }
                 else if (functionselected==2)
                 {
@@ -38,7 +38,7 @@ namespace ClassMetotDemo_hmw3
                 if (functionselected==3)
                 {
                     Console.WriteLine("\nEnter the ıd of the customer\n");
-                    int deletenumber = Convert.ToInt32(Console.ReadLine());//bunu not alcan
+                    int deletenumber = Convert.ToInt32(Console.ReadLine());
                     if (deletenumber==100)
                     {
                     customermanager.Delete(customer1);

@@ -7,7 +7,7 @@ namespace ClassMetotDemo_hmw3
     class CustomerManager
     {
 
-        public void List(Customer[]allcustomers)//bunu not al liste şeklinide
+        public void List(Customer[]allcustomers)// the input type is Customer. because of customer array, [] ared added and allcustomer is just a name.
         {
             Console.WriteLine("\nCustomers are listning\n****************");
             foreach (Customer item in allcustomers)
