@@ -12,7 +12,7 @@ namespace ClassMetotDemo_hmw3
             Console.WriteLine("\nCustomers are listning\n****************");
             foreach (Customer item in allcustomers)
             {
-                Console.WriteLine("name:{1} sname:{2} age:{3} ıd:{0}\n****************", item.name,item.sname, item.age, item.ıd);
+                Console.WriteLine("name:{0} sname:{1} age:{2} ıd:{3}\n****************", item.name,item.sname, item.age, item.ıd);
             }
         }
         public void Add()
