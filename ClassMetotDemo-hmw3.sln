@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo-hmw3", "ClassMetotDemo-hmw3.csproj", "{837A9445-0168-4A20-AF95-B63B467C5A74}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1B2EFF97-09F1-44E2-9A17-22888B402DA2}"
+	ProjectSection(SolutionItems) = preProject
+		Customer.cs = Customer.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
